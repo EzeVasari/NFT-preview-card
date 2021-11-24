@@ -63,8 +63,9 @@ main {
     margin-bottom: 0;
 }
 
-    .title h1:hover {
+    .title h1:hover, .author-name:hover {
         color: var(--cyan);
+        cursor: pointer;
     }
 
 .description p {
