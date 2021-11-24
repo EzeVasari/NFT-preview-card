@@ -27,3 +27,103 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bg-main);
+}
+
+.card {
+    width: 90%;
+    padding: 1.3rem;
+    background-color: var(--bg-card);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.img-hero {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.title h1 {
+    font-size: 1.2rem;
+    color: var(--white);
+    margin-bottom: 0;
+}
+
+    .title h1:hover {
+        color: var(--cyan);
+    }
+
+.description p {
+    font-size: .9rem;
+    font-weight: 100;
+    color: var(--soft-blue);
+}
+
+.value {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.price, .time {
+    display: flex;
+    align-items: center;
+}
+
+.price span {
+    font-size: .8rem;
+    margin-left: .4rem;
+    color: var(--cyan);
+}
+
+.time span {
+    font-size: .8rem;
+    margin-left: .4rem;
+    color: var(--soft-blue);
+}
+
+.line {
+    border: none;
+    height: 1px;
+    background-color: var(--line);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+}
+
+.author-avatar {
+    width: 30px;
+    height: auto;
+    border: 1px solid white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.author-text {
+    font-size: .85rem;
+    margin-left: .8rem;
+    color: var(--soft-blue);
+}
+
+.author-name {
+    color: var(--white);
+}
